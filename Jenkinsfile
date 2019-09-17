@@ -1,6 +1,6 @@
 node('master') {
     stage('Hello') {
-        echo 'hello there'
+        echo 'obi wan kenobi'
         sh 'env | sort'
         sh 'ls -lsa'
     }
