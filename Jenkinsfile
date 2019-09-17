@@ -1,6 +1,6 @@
 node('jnlp-casc') {
     stage('Hello') {
-        echo 'Hello world!'
+        echo 'hello there'
         sh 'env | sort'
         sh 'ls -lsa'
     }
