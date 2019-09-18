@@ -1,6 +1,6 @@
 node('jnlp-agent') {
     stage('Hello') {
-        echo 'Say hello again! and again!'
+        echo 'I want to get it done...'
         sh 'env | sort'
         sh 'ls -lsa'
     }
